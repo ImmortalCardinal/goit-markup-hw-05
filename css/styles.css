@@ -1,0 +1,589 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+button
+{
+margin-top: 0;
+margin-bottom: 0;
+}
+ul,
+ol
+{
+margin-top: 0;
+margin-bottom: 0;
+padding-left: 0;
+}
+img
+{
+display: block;
+}
+address
+{
+font: normal;
+}
+button
+{
+cursor: pointer;
+}
+.list
+{
+list-style:  none;
+}
+.link
+{
+text-decoration: none;
+}
+.container {
+width: 1158px;
+margin-left: auto;
+margin-right: auto;
+padding-left: 15px;
+padding-right: 15px;
+}
+.page_header {
+    background: #FFFFFF;
+    border-bottom: 1px solid  #EEEEEE;;
+}
+.page-nav-list
+{
+    padding: 24px 0;
+}
+/* Стилізуємо шрифт всього BODY*/
+.body,
+.bodyportfolio {
+    color: #212121;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*  =========================== Стилізація Header page =========================== */
+.page_header {
+    background: #FFFFFF;
+}
+
+/* ===================== Стилізація логотипу ======================= */
+
+.logo_first_word,
+.logo_second_word_black,
+.logo_second_word_white {
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.3;
+    letter-spacing: 0.03em;
+    align-items: center;
+    text-transform: uppercase;
+    color: #2E2F42;
+}
+
+.logo_first_word {
+    color: #4D5AE5;
+}
+
+.logo_second_word_black {
+    color: #000000;
+    margin-right: 76px;
+}
+
+.logo_second_word_white {
+    color: #F4F4FD;
+}
+
+/* ===================== /Стилізація логотипу ======================= */
+
+/* ======= Pageheader ======= */
+.page-header-container
+{
+    display: flex;
+}
+.page_nav
+{
+    display: flex;
+    align-items: center;
+}
+.site-nav-list
+{
+    display: flex;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.site-nav-list a
+{
+    color: #2E2F42;
+}
+.site-nav-list li:not(:last-child)
+{
+    margin-right: 40px;
+}
+.adress
+{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+.adress li:not(:last-child)
+{
+    margin-right: 50px;
+}
+
+
+/* ======= /Pageheader ======= */
+
+.site_nav_item:hover,
+.site_nav_item:focus {
+    color: #2196F3;
+}
+
+.mailtel:hover,
+.mailtel:focus {
+    color: #2196F3;
+}
+
+.adress_contact_list_mail,
+.adress_contact_list_phonenumber
+ {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.overlay
+{
+max-width: 1440px;
+height: ;
+margin-left: auto;
+margin-right: auto;
+background-image: url('../images/dark_bg_hero.png'),url('../images/background_hero.png');
+/* linear-gradient() */
+background-repeat: no-repeat;
+background-position: center;
+}
+
+.hero {
+    /* background: #2E2F42; */
+    padding-top: 188px;
+    padding-bottom: 188px;
+    text-align: center;
+}
+
+.hero_title {
+    width: 496px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.hero_btn {
+    background: #4D5AE5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height:  1.5em;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    padding: 16px 32px;
+    border: none;
+}
+.hero_btn:hover
+{
+    background: #404BBF;
+}
+
+.btn_portfolio {
+    padding: 12px 24px;
+    background: #F4F4FD;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #4D5AE5;
+}
+
+.hero_btn:hover,
+.hero_btn:focus
+{
+
+}
+
+.aboutsection h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.aboutsection
+{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.aboutsection p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+/* Displayflex ===aboutsection=== */
+.about_item_list li:not(:last-child)
+{
+margin-right: 24px;
+}
+.about_item_list li
+{
+width: 270px;
+}
+.about_item_list
+{
+display: flex;
+}
+.about_item_list h3
+{
+margin-bottom: 8px;
+}
+.about_link
+{
+    width: 100%;
+    height: 112px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F4F4FD;
+    border: 1px solid #F4F4FD;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+/* Displayflex ===/aboutsection=== */
+.title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin-bottom: 72px;
+}
+/* Displayflex ===Worksection=== */
+.worksection
+{
+    padding-bottom: 120px;
+}
+.worksection-container
+{
+}
+.worksection_list
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+/* Displayflex ===/Worksection=== */
+
+/* Displayflex ===teamsection=== */
+
+.teamsection_list
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.teamsection
+{
+    background: #F4F4FD;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.teamsection h3
+{
+    font-weight: 500;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin-bottom: 10px;
+}
+
+.teamsection p
+{
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+.teamsection-list-text{
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+/* .teamsection_list_item li:not(:last-child) {
+    margin-right: 30px;
+} */
+
+.teamsection-list-text
+{
+    padding-top: 32px;
+    padding-bottom: 32px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
+}
+.teamsection_text
+{
+    margin-bottom: 8px;
+}
+.team_card_soc_list
+{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+.team_card_soc_item
+{
+    width: 40px;
+    height: 40px;
+}
+.team_card_soc_link
+{
+    width: 100%;
+    height: 100%;
+    background-color: #4D5AE5;
+    border-radius: 50%;
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.team_card_soc_link:is(:hover,:focus)
+{
+    background-color: #404BBF;
+}
+.team_card_soc_icon
+{
+    fill: #F4F4FD;
+}
+/* Displayflex ===/teamsection=== */
+
+/* ===Customers section=== */
+.customers_section
+{
+padding-top: 130px;
+padding-bottom: 120px;
+}
+
+.customers_list
+{
+    display: flex;
+    gap: 24px;
+}
+
+.customers_list_item
+{
+    height: 88px;
+    width: calc((100% - 120px)/6);
+}
+
+.customers_link
+{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ .customers_link:is(:hover,:focus)
+{
+    border-color: #404BBF;
+}
+ .customers_link:is(:hover, :focus) .customers_soc_icon
+ {
+    fill: #404BBF;
+}
+.customers_soc_icon
+{
+    fill: #AFB1B8;;
+}
+/* ===/Customers section=== */
+.footer-container
+{
+    display: flex;
+    align-items: center;
+}
+.footer_adress
+{
+    margin-right: 120px;
+}
+
+.footer
+{
+    background: #2E2F42;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    align-items: center;
+}
+.address_text_type
+{
+    width: 264px;
+    margin-top: 16px;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #E7E9FC;
+    font-weight: 400;
+    }
+.footer_soc_text
+{
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+.footer_soc_list {
+    display: flex;
+    gap: 24px;
+}
+
+.footer_soc_item {
+    width: 40px;
+    height: 40px;
+}
+
+.footer_soc_link {
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer_soc_link:is(:hover, :focus) {
+    background-color: #1c92a4;
+}
+
+.footer_soc_icon {
+    fill: #F4F4FD;
+}
+
+.address-footer-section :not(:last-child)
+{
+    margin-bottom: 9px;
+}
+.adress_text_type
+{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #E7E9FC;
+
+}
+.adress_contact_list_phonenumber:hover,
+.adress_contact_list_phonenumber:focus {
+    color: #2196F3;
+}
+.adress_contact_list_mail:hover,
+.adress_contact_list_mail:focus
+{
+    color:#2196F3;
+}
+.project_title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42
+}
+
+.project_description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #434455;
+    line-height: 1.875;
+
+}
+
+.portfolio_list p {
+    line-height: 1.875;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+/* Displayflex ===portfolio-main-container=== */
+.portfolio-main-container
+{
+}
+/* .portfolio_list_link :hover
+{
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+} */
+.portfolio_list_link :is(:hover)
+{
+box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+.portfolio_list
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.button_list
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.button_list li:not(:last-child)
+{
+    margin-right: 24px;
+}
+.button_list :hover .btn_portfolio,
+.button_list :focus .btn_portfolio {
+    background-color: #2196F3;
+    color: #FFFFFF;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12)
+}
+.button-list-container
+{
+    display: flex;
+}
+.protfolio-list-content-container
+{
+    padding: 32px 16px;
+    border-right:1px solid #EEEEEE; ;
+    border-bottom:1px solid #EEEEEE; ;
+    border-left:1px solid #EEEEEE; ;
+}
+.protfolio-list-content-container h3
+{
+    padding-bottom: 8px;
+}
+.btn_portfolio_section
+{
+    padding-top: 96px;
+    padding-bottom: 120px
+}
+/* Displayflex ===/portfolio-main-container=== */
