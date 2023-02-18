@@ -24,9 +24,9 @@
                 WEB<span class="logo_second_word_black">STUDIO</span>
             </a>
             <ul class="site-nav-list list ">
-                <li><a href="./index.html" class="site_nav_item link list page-nav-list">Studio</a></li>
-                <li><a href="./portfolio.html" class="site_nav_item link list page-nav-list">Portfolio</a></li>
-                <li><a href="" class="site_nav_item link list page-nav-list">Contacts</a></li>
+                <li><a href="./index.html" class="site_nav_item link list page-nav-list page_nav_underline">Studio</a></li>
+                <li><a href="./portfolio.html" class="site_nav_item link list page-nav-list page_nav_underline">Portfolio</a></li>
+                <li><a href="" class="site_nav_item link list page-nav-list page_nav_underline">Contacts</a></li>
             </ul>
         </nav>
         <ul class="adress list">
@@ -42,10 +42,25 @@
     <main>
         <!-- ============================== Замовлення послуги ============================== -->
         <section class="hero overlay">
+            <div class="hero_btn_box">
             <h1 class="hero_title">
                 Effective Solutions for Your Business
             </h1>
-            <button class="hero_btn" type="button">Order Service</button>
+            <button class="hero_btn" type="button" data-modal-open>
+                Order Service
+            </button>
+            </div>
+            <div class="backdrop is-hidden" data-modal>
+                <div class="modal">
+                    <button type="button" data-modal-close class="modal-button">
+                        <svg class="modal-icon">
+                            <use href="./images/icons.svg#icon-modal-x"></use>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+
         </section>
         <!-- ============================== /Замовлення послуги ============================== -->
 
@@ -132,36 +147,36 @@
                     <li class="teamsection_list_item">
                         <img class="teamsection-img" src="./images/productdesigner.png" alt="Mark Guerrero" width="264">
                             <div class="teamsection-list-text">
-                            <h3>Mark Guerrero</h3>
-                            <p class="teamsection_text" lang="en">Product Designer</p>
+                                <h3>Mark Guerrero</h3>
+                                <p class="teamsection_text" lang="en">Product Designer</p>
                             <ul class="team_card_soc_list list">
                                 <li class="team_card_soc_item">
                                     <a href="" class="team_card_soc_link link">
                                         <svg class="team_card_soc_icon" width="16" height="16">
-                                            <use href="./images/svg/icons.svg#icon-instagram_icon" ></use>
+                                            <use href="./images/svg/hw04icons.svg#icon-instagram_icon"></use>
                                         </svg>
                                     </a>
                                 </li>
                                 <li class="team_card_soc_item">
                                     <a href="" class="team_card_soc_link link">
                                         <svg class="team_card_soc_icon" width="16" height="16">
-                                            <use href="./images/svg/icons.svg#icon-twitter_icon"></use>
+                                            <use href="./images/svg/hw04icons.svg#icon-twitter_icon"></use>
                                         </svg>
                                     </a>
                                 </li>
                                 <li class="team_card_soc_item">
                                     <a href="" class="team_card_soc_link link">
                                         <svg class="team_card_soc_icon" width="16" height="16">
-                                             <use href="./images/svg/hw04icons.svg#icon-facebook_icon"></use>
+                                            <use href="./images/svg/hw04icons.svg#icon-facebook_icon"></use>
                                         </svg>
                                     </a>
                                 </li>
                                 <li class="team_card_soc_item">
                                     <a href="" class="team_card_soc_link link">
                                         <svg class="team_card_soc_icon" width="16" height="16">
-                                             <use href="./images/svg/hw04icons.svg#icon-linkedin_icon"></use>
+                                            <use href="./images/svg/hw04icons.svg#icon-linkedin_icon"></use>
                                         </svg>
-                                     </a>
+                                    </a>
                                 </li>
                             </ul>
                             </div>
@@ -384,6 +399,7 @@
         </div>
     </footer>
     <!-- ============================== /Footer ============================== -->
+    <script src="./js/modal.js"></script>
 </body>
 
 </html>
